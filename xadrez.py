@@ -1099,7 +1099,7 @@ else:
     print(f"{jogador1tipo},{jogador1cor}")
     print(f"{jogador2tipo},{jogador2cor}")
     
-    txt = open('log maxmin vs aleatorias.txt','a')
+    txt = open('log batida de testes.txt','a')
     for i in range(qtdJogos):
         log = None
         novoJogo = copy.deepcopy(jogo)
