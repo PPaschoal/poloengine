@@ -1157,7 +1157,7 @@ else:
             else:
                 vitoriasJogador2Pretas += 1
             print(f"Jogo {i+1}: Vitória das Pretas")
-            txt.write(f"Jogo {i+1}: Vitória das Pretas/n")
+            txt.write(f"Jogo {i+1}: Vitória das Pretas\n")
             
         elif novoJogo.turno % 2 == 1:
             if jogador1.cor == 0:
@@ -1165,10 +1165,10 @@ else:
             else:
                 vitoriasJogador2Brancas += 1
             print(f"Jogo {i+1}: Vitória das Brancas")
-            txt.write(f"Jogo {i+1}: Vitória das Brancas/n")
+            txt.write(f"Jogo {i+1}: Vitória das Brancas\n")
         
         print(f"Notações da partida: {log}")
-        txt.write(f"Notações da partida: {log}/n")
+        txt.write(f"Notações da partida: {log}\n")
         print("="*50)
         printarTabuleiro(novoJogo.tabuleiro)
         print("="*50)
