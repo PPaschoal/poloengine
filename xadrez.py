@@ -164,7 +164,7 @@ class Estado:
 
 
 def traducaoUCI(casaOrigem,casaDestino,promocao):
-    pt_to_br = {
+    pt_to_en = {
         "B": 'b',
         "C": 'n',
         "T": 'r',
@@ -174,7 +174,7 @@ def traducaoUCI(casaOrigem,casaDestino,promocao):
     jogadaTraduzida = colunasPraFileiras(casaOrigem[1]) + linhasPraFileiras(casaOrigem[0]) + colunasPraFileiras(casaDestino[1]) + linhasPraFileiras(casaDestino[0])
     
     if promocao != False:
-        jogadaTraduzida += pt_to_br(promocao)
+        jogadaTraduzida += pt_to_en(promocao)
     
     return jogadaTraduzida
 
